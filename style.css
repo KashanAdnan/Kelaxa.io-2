@@ -282,8 +282,13 @@ button span {
   display: none;
 }
 
+
 #video2 {
   margin-top: -100px !important;
+}
+
+#video3 {
+  display: none;
 }
 
 .thumbnail .card-btn i {
@@ -317,6 +322,17 @@ button span {
   margin-top: 14px;
   font-weight: 600;
 }
+
+.video {
+  overflow: hidden;
+}
+
+.video video {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
 
 #thumbnail1 {
   background-image: url("./videos/thumbnail/thumbnail2.png");

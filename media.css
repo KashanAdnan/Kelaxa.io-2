@@ -8,11 +8,17 @@
         padding: 9px 17px !important;
     }
 
+    .main-video22 {
+        text-align: center !important;
+        padding: 20px 20px !important;
+        height: 51vh !important;
+    }
+
     .video {
         width: 100% !important;
         height: 470px !important;
-        border-left: 4px solid !important;
-        border-right: 4px solid !important;
+        /* border-left: 4px solid !important;
+        border-right: 4px solid !important; */
         background-position: center !important;
         border-radius: 12px !important;
     }
@@ -124,7 +130,7 @@
 
     .results {
         padding: 0 10px !important;
-      
+
     }
 
     .result-container img {

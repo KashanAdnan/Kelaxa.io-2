@@ -62,3 +62,22 @@ video2.onended = function (e) {
   button2.style.display = "flex";
   video2.style.display = "none";
 };
+
+
+const button3 = document.getElementById("button3");
+const shadow3 = document.getElementsByClassName("shadow");
+const video = document.getElementsByClassName("video");
+const main = document.getElementById("main");
+const video3 = document.getElementById("video3");
+
+button3.addEventListener("click", () => {
+  shadow3[0].style.display = "none";
+  video[0].style.backgroundImage = "none";
+  button3.style.display = "none";
+  video3.style.display = "block";
+  video[0].style.borderLeft = 0;
+  video[0].style.borderRight = 0;
+  main.setAttribute("class", "main-video22")
+  video3.load();
+  video3.autoplay = true;
+});

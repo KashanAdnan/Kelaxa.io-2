@@ -73,11 +73,19 @@ const video3 = document.getElementById("video3");
 button3.addEventListener("click", () => {
   shadow3[0].style.display = "none";
   video[0].style.backgroundImage = "none";
+  video[0].style.border = "0";
   button3.style.display = "none";
   video3.style.display = "block";
-  video[0].style.borderLeft = 0;
-  video[0].style.borderRight = 0;
   main.setAttribute("class", "main-video22")
   video3.load();
   video3.autoplay = true;
 });
+
+video3.onended = function (e) {
+  main.setAttribute("class", "")
+  shadow3[0].style.display = "flex";
+  video[0].style.backgroundImage = "";
+  button3.style.display = "flex";
+  video[0].style.border = '';
+  video3.style.display = "none";
+};

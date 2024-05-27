@@ -103,7 +103,7 @@ main .video {
   width: 900px;
   margin-top: 30px;
   background-image: url("./videos/thumbnail/thumbnail1.png");
-  height: 470px;
+  height: 510px;
   background-repeat: no-repeat;
   background-size: cover;
   z-index: 1000;
@@ -268,12 +268,17 @@ button span {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  border-radius: 8px;
+  border-radius: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
+  border: 4px solid #fff;
   overflow: hidden;
+}
+
+#thumbnail3 {
+  border: none !important;
 }
 
 .thumbnail video {
@@ -327,20 +332,29 @@ button span {
   overflow: hidden;
 }
 
+.video {
+  border-radius: 30px;
+  border: 8px solid #fff;
+}
+
 .video video {
   width: 100%;
   height: 100%;
-  border-radius: 10px;
+  border: 8px solid #fff;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
 }
 
 
 #thumbnail1 {
-  background-image: url("./videos/thumbnail/thumbnail2.png");
+  background-image: url("./videos/thumbnail/thumbnail2\ copy.png");
   background-size: contain;
 }
 
 #thumbnail2 {
-  background-image: url("./videos/thumbnail/thumbnail4.png");
+  background-image: url("./videos/thumbnail/thumbnail3\ copy.png");
 }
 
 #thumbnail3 {
